@@ -1,0 +1,12 @@
+콜백함수
+  - 매게 변수로 전달하는함수
+      <script>
+        function callNtimes(n, callback){
+            for(var i =0; i<n; i++)
+                callback();
+            }
+
+            callNtimes(20, function () {
+                alert("it's test for callback");
+            });
+    </script>
